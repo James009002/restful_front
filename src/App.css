@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.headerBar {
+  width: 90%;
+  display: inline-block;
+  padding: 5px;
+}
+.headerBar a{
+  width: 17%;
+  display: inline-block;
+  text-decoration: none;
+  font-size:  20px;
+  color: black;
+  font-family: cursive;
+}
+.logo{
+  width: 10%;
+  min-width: 200px;
 }
